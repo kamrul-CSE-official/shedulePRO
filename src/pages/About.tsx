@@ -389,7 +389,7 @@ const TaskForm: React.FC<TaskFormProps> = ({
         </div>
       </div>
       <Button onClick={onSubmit} className="sm:col-span-2">
-        {task.id ? "Update Task" : "Add Task"}
+        {task?.id ? "Update Task" : "Add Task"}
       </Button>
     </div>
   );
@@ -461,7 +461,7 @@ const DateTimePicker: React.FC<{
               mode="single"
               selected={date}
               onSelect={handleDateChange}
-              initialFocus
+              //   initialFocus={true}
             />
           </PopoverContent>
         </Popover>
