@@ -68,7 +68,7 @@ export default function EnhancedIndustrialGanttChart() {
       canResize: "both",
       canChangeGroup: true,
       progress: 55,
-      style: { backgroundColor: "rgb(158, 14, 206)" },
+      style: { backgroundColor: "rgb(258, 64, 406)" },
     },
     {
       id: 2,
